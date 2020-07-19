@@ -2,7 +2,8 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import dogIllustration from "../images/dog-illustration.svg";
+//import dogIllustration from "../images/dog-illustration.svg";
+import oberryChurchCommittee from "../images/OBerry-church-committee-web.jpg";
 
 function AboutPage() {
   return (
@@ -14,21 +15,22 @@ function AboutPage() {
 
       <section className="flex flex-col items-center md:flex-row">
         <div className="md:w-2/3 md:mr-8">
-          <blockquote className="pl-4 font-serif leading-loose text-justify border-l-4 border-gray-900">
-            The point is... to live one&apos;s life in the full complexity of
-            what one is, which is something much darker, more contradictory,
-            more of a maelstrom of impulses and passions, of cruelty, ecstacy,
-            and madness, than is apparent to the civilized being who glides on
-            the surface and fits smoothly into the world.
-          </blockquote>
+            We are located at...
 
-          <cite className="block mt-4 text-xs font-bold text-right uppercase">
-            – Thomas Nagel
-          </cite>
+            31490 Oberry Church Rd,
+            Franlkin, VA 23851
+
+
+            Worship: Sundays at 11:00 AM EST
+            Bible Study: Sundays at 10:00 AM EST
+
+          {/*<cite className="block mt-4 text-xs font-bold text-right uppercase">*/}
+          {/*  – Thomas Nagel*/}
+          {/*</cite>*/}
         </div>
 
         <figure className="w-2/3 md:w-1/3">
-          <img alt="A dog relaxing" src={dogIllustration} />
+          <img alt="O'Berry A. M. E. Zion Church Committee" src={oberryChurchCommittee} />
         </figure>
       </section>
     </Layout>

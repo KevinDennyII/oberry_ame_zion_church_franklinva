@@ -2,6 +2,9 @@ import PropTypes from "prop-types";
 import React from "react";
 
 import Header from "./header";
+// import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+// import ohhDennyServicesLlcBadge from "../images/OSD_site_badge.jpg";
+// import styles from "../css/style.css";
 
 function Layout({ children }) {
   return (
@@ -12,29 +15,19 @@ function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="bg-blue-700">
-        <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
-          <p className="text-white">
-            Created by{` `}
+      <footer className="bg-purple-700">
+        <nav className="p-4 mx-auto text-sm md:p-8">
+          <p className="text-center text-white">
+            Made by{` `}
             <a
               className="font-bold no-underline"
-              href="https://bryant.io"
+              href="https://ohhdennyservices.us"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Taylor Bryant
+             OhhDenny Services, LLC
             </a>
-          </p>
-
-          <p>
-            <a
-              className="font-bold text-white no-underline"
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
+            {` `}with ❤
           </p>
         </nav>
       </footer>
