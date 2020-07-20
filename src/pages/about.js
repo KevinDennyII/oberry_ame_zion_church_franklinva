@@ -14,22 +14,25 @@ function AboutPage() {
       />
 
       <section className="flex flex-col items-center md:flex-row">
-        <div className="md:w-2/3 md:mr-8">
-            We are located at...
+        <div className="w-2/5 md:mr-8 text-2xl">
+            {/*We are located at...*/}
 
-            31490 Oberry Church Rd,
-            Franlkin, VA 23851
+            {/*31490 Oberry Church Rd,*/}
+            {/*Franlkin, VA 23851*/}
 
-
-            Worship: Sundays at 11:00 AM EST
-            Bible Study: Sundays at 10:00 AM EST
+          <div>Worship:<br/>
+            Sundays at 11:00 AM EST<br/><br/>
+          </div>
+          <div>Bible Study:<br/>
+            Sundays at 10:00 AM EST<br/><br/>
+          </div>
 
           {/*<cite className="block mt-4 text-xs font-bold text-right uppercase">*/}
           {/*  – Thomas Nagel*/}
           {/*</cite>*/}
         </div>
 
-        <figure className="w-2/3 md:w-1/3">
+        <figure className="w-3/3 md:w-3/3">
           <img alt="O'Berry A. M. E. Zion Church Committee" src={oberryChurchCommittee} />
         </figure>
       </section>

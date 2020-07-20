@@ -2,7 +2,6 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-//import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
 import oberryAmeZionChurchPic from "../images/oberry_ame_zion_church.jpg";
 
 function IndexPage() {
@@ -19,7 +18,7 @@ function IndexPage() {
           className="block rounded shadow-xs"
           src={oberryAmeZionChurchPic}
         />
-        <h2 className="inline-block text-teal-900">{`Welcome to O'Berry A. M. E. Zion Church of Franklin, Virginia!`}</h2>
+        <h2 className="inline-block text-teal-900 text-3xl text-shadow-sm">{`Welcome to O'Berry A. M. E. Zion Church of Franklin, Virginia!`}</h2>
       </section>
     </Layout>
   );

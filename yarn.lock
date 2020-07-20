@@ -12354,7 +12354,21 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwindcss@1.5.1:
+tailwindcss-textshadow@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-textshadow/-/tailwindcss-textshadow-2.0.0.tgz#cf6f78bd4e8d30f9ce646d8a283bc571d47db691"
+  integrity sha512-tgRyvShW9N/wW4eMEYYUBfmZOj60rmE/mTDzrQ31wLLktkA4U6/9aBxNM15CcZ1rh7bNXNB4xYuyq7UwNG6iUA==
+  dependencies:
+    tailwindcss "^1.1.4"
+
+tailwindcss-typography@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-typography/-/tailwindcss-typography-3.1.0.tgz#b60690d97a53b0d94eab286cd02f68d6d30e2d3d"
+  integrity sha512-uqovHMt9orPs1kl2U+bidlcO25tmUGJjjluQdI67yRnOy/IlqKe6tYcHHAsQPhehlk3r11/T3CE7Uc0PSUJcNg==
+  dependencies:
+    lodash "^4.17.15"
+
+tailwindcss@1.5.1, tailwindcss@^1.1.4:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.5.1.tgz#a3eb10024f8e10786b8b6badcf9665b013bd03ee"
   integrity sha512-mBOxIk+U+9xECC6wllWiupPVfLuwTDvHb4d+8XTdZ8oYrZEH+NpFSlbATF5xWuCJQxDOZ1Dz7C0KN5tylcFhFg==
