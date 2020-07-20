@@ -33,7 +33,7 @@ function AboutPage() {
         </div>
 
         <figure className="w-3/3 md:w-3/3">
-          <img alt="O'Berry A. M. E. Zion Church Committee" src={oberryChurchCommittee} />
+          <img alt="O'Berry A. M. E. Zion Church Committee" className="rounded shadow-md" src={oberryChurchCommittee} />
         </figure>
       </section>
     </Layout>
