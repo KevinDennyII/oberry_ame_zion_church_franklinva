@@ -28,6 +28,8 @@ function Layout({ children }) {
              OhhDenny Services, LLC
             </a>
             {` `}with ❤
+            <br/>
+            &copy;Copyright 2020
           </p>
         </nav>
       </footer>
