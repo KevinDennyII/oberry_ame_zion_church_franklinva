@@ -14,16 +14,12 @@ function AboutPage() {
       />
 
       <section className="flex flex-col items-center md:flex-row">
-        <div className="w-2/5 md:mr-8 text-2xl">
-            {/*We are located at...*/}
+        <div className="md:w-3/5 lg:w-2/5 md:mr-8 sm:text-md md:text-1xl lg:text-1xl">
 
-            {/*31490 Oberry Church Rd,*/}
-            {/*Franlkin, VA 23851*/}
-
-          <div>Worship:<br/>
-            Sundays at 11:00 AM EST<br/><br/>
+          <div>Worship:{' '}
+            Sundays at 11:00 AM EST<br/>
           </div>
-          <div>Bible Study:<br/>
+          <div>Bible Study:{' '}
             Sundays at 10:00 AM EST<br/><br/>
           </div>
 
