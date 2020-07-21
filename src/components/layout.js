@@ -29,7 +29,7 @@ function Layout({ children }) {
             </a>
             {` `}with ❤
             <br/>
-            &copy;{`2020 O'Berry A. M. E. Zion Church. All Rights Reserved.`}
+            {`Copyright `}&copy;{` 2020 O'Berry A. M. E. Zion Church. All Rights Reserved.`}
           </p>
         </nav>
       </footer>
