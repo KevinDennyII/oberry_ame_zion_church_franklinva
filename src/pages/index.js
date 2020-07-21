@@ -18,7 +18,7 @@ function IndexPage() {
           className="block rounded shadow-xs"
           src={oberryAmeZionChurchPic}
         />
-        <h2 className="inline-block text-teal-900 sm:text-sm md:text-2xl lg:text-3xl">
+        <h2 className="inline-block text-teal-900 sm:text-sm md:text-2xl lg:text-2xl">
           {`Welcome to O'Berry A. M. E. Zion Church of Franklin, Virginia!`}
         </h2>
       </section>
