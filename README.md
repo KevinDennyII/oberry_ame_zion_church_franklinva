@@ -3,8 +3,8 @@ Website: https://oberry-ame-zion-church.netlify.app/
 
 This is a small little country church right outside the city limits of Franklin, VA.  Much of my adolescences is a part of the church for which my mother and all her side of the family is from.  I wanted to give O'berry some type of web presence.
 
-This was also my VERY FIRST take on the use of VueJS with Netlify.  
-Netlify is great tool making every inch of this free!
+This was also my take on GatsbyJS
+Netlify is a great tool making every inch of this free!
 
 Anyone wanting help out this little hometown church of mines, feel free to fork this or add to it!
 
