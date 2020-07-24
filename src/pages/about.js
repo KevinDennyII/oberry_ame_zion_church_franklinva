@@ -15,7 +15,7 @@ function AboutPage() {
 
       <section className="flex flex-col items-center ">
         <div className="mx-auto text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl text-white">
-            <div className="textShadow font-semibold ">
+            <div className="textShadow font-medium ">
                 We are little country church with a big passion for Christ!<br/>
                 Jesus is KING!<br/><br/>
             </div>
