@@ -14,7 +14,7 @@ function AboutPage() {
       />
 
       <section className="flex flex-col items-center ">
-        <div className="mx-auto sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl">
+        <div className="mx-auto sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl text-white">
           <div>Worship:{' '}
             Sundays at 11:00 AM EST<br/>
           </div>

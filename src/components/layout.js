@@ -8,14 +8,14 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900">
+    <div className="flex flex-col min-h-screen font-sans text-gray-900 bg-purple-700">
       <Header />
 
-      <main className="flex-1 w-full max-w-4xl px-0 py-4 mx-auto mx-1 md:px-0 md:py-4">
+      <main className="flex-1 h-auto px-0 py-4 mx-auto mx-1 md:px-0">
         {children}
       </main>
 
-      <footer className="bg-purple-700">
+      <footer className="bg-purple-700 border-t-2">
         <nav className="p-4 mx-auto text-sm md:p-8">
           <p className="text-center text-white">
             Made by{` `}
