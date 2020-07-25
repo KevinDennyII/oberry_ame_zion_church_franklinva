@@ -8,7 +8,7 @@ import Header from "./header";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900 ">
+    <div className="flex flex-col h-auto font-sans text-gray-900 ">
       <Header />
 
       {/*<main className="flex-1 h-auto px-0 py-4 mx-auto mx-1 md:px-0">*/}
