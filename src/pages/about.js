@@ -14,7 +14,7 @@ function AboutPage() {
       />
 
       <section className="flex flex-col items-center ">
-        <div className="mx-auto text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl text-white">
+        <div className="mx-auto text-center sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl text-black">
             <div className="textShadow font-medium ">
                 We are little country church with a big passion for Christ!<br/>
                 Jesus is KING!<br/><br/>
