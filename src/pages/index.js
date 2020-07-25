@@ -15,7 +15,7 @@ function IndexPage() {
       <section className="text-center">
         <img
           alt="O'berry A. M. E. Zion Church of Franklin, Virginia"
-          className="mx-auto w-full h-80 object-cover block rounded shadow-s"
+          className="mx-auto w-full h-80 p-1 object-cover block rounded-lg shadow-lg"
           src={oberryAmeZionChurchPic}
         />
         {/*<h2 className="inline-block text-teal-900 sm:text-sm md:text-2xl lg:text-2xl">*/}
