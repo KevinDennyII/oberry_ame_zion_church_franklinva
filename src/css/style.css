@@ -6,8 +6,8 @@
 
 section#home {
   background-image: linear-gradient(
-      rgba(0, 15, 200, 0.45),
-      rgba(0, 15, 200, 0.45)
+      rgba(0, 15, 200, 0.25),
+      rgba(0, 15, 200, 0.25)
     ),
     url("../images/oberry_ame_zion_church.jpg");
   margin: 3px;
