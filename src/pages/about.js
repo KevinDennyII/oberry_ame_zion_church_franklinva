@@ -13,8 +13,8 @@ function AboutPage() {
         title="About"
       />
 
-      <section className="flex flex-col items-center ">
-        <div className="mx-auto text-center sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl text-black">
+      <section className="flex items-center ">
+        <div className="flex-1 mx-auto text-center sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl text-black">
           <div className="textShadow font-medium ">
             We are little country church with a big passion for Christ!
             <br />
@@ -32,13 +32,22 @@ function AboutPage() {
             <br />
           </div>
         </div>
-        <figure className="w-3/3 md:w-3/3 xl:w-5/5">
-          <img
-            alt="O'Berry A. M. E. Zion Church Committee"
-            className="rounded shadow-md"
-            src={oberryChurchCommittee}
-          />
-        </figure>
+        <div className="flex-1 p-4">
+          <figure>
+            <img
+              alt="O'Berry A. M. E. Zion Church Committee"
+              className="rounded shadow-md"
+              src={oberryChurchCommittee}
+            />
+            <figcaption className="text-xs text-center">
+              in front, from left: Otis Brown, Brenda Thomas, Candice Woodruff,
+              Reginald Woodruff Sr. Teressa Baxter; back, Willie and Ann
+              Ellison, Earva Sumblin and Ruth Whitehead. Not pictured are Jean
+              Buck-Denny, Phyllis Britt, Gladys Brown, Yvette Brown, Janice
+              Stevens and John Whitehead
+            </figcaption>
+          </figure>
+        </div>
       </section>
     </Layout>
   );
