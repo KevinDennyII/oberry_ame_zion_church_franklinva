@@ -62,12 +62,12 @@ function Header() {
               title: `Contact`,
             },
           ].map((link) => (
-              <button
-                  className="bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded"
+            <button
+              className="border-none bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded"
               key={link.title}
               // to={link.route}
             >
-                <a href={link.route}>{link.title}</a>
+              <a href={link.route}>{link.title}</a>
             </button>
           ))}
         </nav>

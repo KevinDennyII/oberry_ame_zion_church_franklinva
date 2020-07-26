@@ -12,7 +12,7 @@ function Layout({ children }) {
       <Header />
 
       {/*<main className="flex-1 h-auto px-0 py-4 mx-auto mx-1 md:px-0">*/}
-        {children}
+      {children}
       {/*</main>*/}
 
       <footer className="bg-purple-700 border-t-2">
@@ -25,11 +25,12 @@ function Layout({ children }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-             OhhDenny Services, LLC
+              OhhDenny Services, LLC
             </a>
             {` `}with ❤
-            <br/>
-            {`Copyright `}&copy;{` 2020 O'Berry A. M. E. Zion Church. All Rights Reserved.`}
+            <br />
+            {`Copyright `}&copy;
+            {` 2020 O'Berry A. M. E. Zion Church. All Rights Reserved.`}
           </p>
         </nav>
       </footer>

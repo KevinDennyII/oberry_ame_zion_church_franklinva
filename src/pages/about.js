@@ -15,19 +15,29 @@ function AboutPage() {
 
       <section className="flex flex-col items-center ">
         <div className="mx-auto text-center sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl text-black">
-            <div className="textShadow font-medium ">
-                We are little country church with a big passion for Christ!<br/>
-                Jesus is KING!<br/><br/>
-            </div>
-          <div>Worship:{' '}
-            Sundays at 11:00 AM EST<br/>
+          <div className="textShadow font-medium ">
+            We are little country church with a big passion for Christ!
+            <br />
+            Jesus is KING!
+            <br />
+            <br />
           </div>
-          <div>Bible Study:{' '}
-            Sundays at 10:00 AM EST<br/><br/>
+          <div>
+            Worship: Sundays at 11:00 AM EST
+            <br />
+          </div>
+          <div>
+            Bible Study: Sundays at 10:00 AM EST
+            <br />
+            <br />
           </div>
         </div>
         <figure className="w-3/3 md:w-3/3 xl:w-5/5">
-          <img alt="O'Berry A. M. E. Zion Church Committee" className="rounded shadow-md" src={oberryChurchCommittee} />
+          <img
+            alt="O'Berry A. M. E. Zion Church Committee"
+            className="rounded shadow-md"
+            src={oberryChurchCommittee}
+          />
         </figure>
       </section>
     </Layout>
