@@ -67,7 +67,9 @@ function Header() {
               key={link.title}
               // to={link.route}
             >
-              <a href={link.route}>{link.title}</a>
+              <a href={link.route} className="border-none focus:no-underline">
+                {link.title}
+              </a>
             </button>
           ))}
         </nav>

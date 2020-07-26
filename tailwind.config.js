@@ -9,8 +9,14 @@ module.exports = {
       xl: "0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)",
       none: "none",
     },
-    fontFamily: {
-      roboto: ["Roboto", "sans-serif"],
+    extend: {
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
+      fontSize: {
+        xxs: "8px",
+        tiny: ".5rem",
+      },
     },
   },
   variants: {},
