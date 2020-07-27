@@ -25,7 +25,7 @@ function ContactPage() {
             className="p-4 mx-auto"
           />
         </div>
-        <div className="flex-1 ">
+        <div className="flex-1 mr-24">
           <p className="font-bold text-md">
             Phone{" "}
             <FontAwesomeIcon
@@ -43,7 +43,27 @@ function ContactPage() {
           <p className="font-bold text-md">
             Worship: Sundays at 11:00 AM EST
             <br />
-            Bible Study: Sundays at 10:00 AM EST
+            Sunday School: Sundays at 10:00 AM EST
+            <br />
+            <br />
+            <br />
+            <p className="italic font-normal">
+              *Due to COVID-19, our Worship and Sunday School services are
+              provided through a telephone conference line.
+              <br />
+              <br />
+              Telephone
+              <FontAwesomeIcon
+                icon={faPhone}
+                style={{
+                  color: "green",
+                  textShadow: "0 1px 0 rgba(0, 0, 0, 0.1)",
+                }}
+              />
+              : <a href="tel:+16054754700">605-475-4700</a>
+              <br />
+              Access Code: 257059#
+            </p>
           </p>
         </div>
       </section>

@@ -1,6 +1,9 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
 
+import ameZionLogo from "../images/amezion-logo.png";
+//import { ReactComponent as ameZionLogo } from "../images/amezion-logo-1.svg";
+
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
   const { site } = useStaticQuery(graphql`
@@ -18,15 +21,18 @@ function Header() {
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-4">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
-            <svg
-              className="w-8 h-8 mr-2 fill-current"
-              height="54"
-              viewBox="0 0 54 54"
-              width="54"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
-            </svg>
+            <img
+              alt="African Methodist Episcopal Zion Church Logo"
+              width="30px"
+              height="30px"
+              // style={{
+              //   borderLeft: "10px solid transparent",
+              //   borderRight: "10px solid transparent",
+              //   borderBottom: "25px solid transparent",
+              // }}
+              className="w-12 h-18 mr-2"
+              src={ameZionLogo}
+            />
             <span className="sm:text-xs md:text-xl lg:text-2xl font-bold tracking-tight">
               {site.siteMetadata.title}
             </span>
