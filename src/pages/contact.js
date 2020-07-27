@@ -12,8 +12,8 @@ function ContactPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Contact"
       />
-      <section className="flex items-center mx-auto  justify-center">
-        <div className="flex-1">
+      <section className="md:flex items-center mx-auto  justify-center">
+        <div className="md:flex-1">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.0053694159496!2d-76.96664638464816!3d36.72243227977302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b0251e0534668f%3A0xbd90313cd51de4cb!2sO&#39;Berry%20A.M.E.%20Zion%20Church!5e0!3m2!1sen!2sus!4v1595306704305!5m2!1sen!2sus"
             width="600"
@@ -25,7 +25,7 @@ function ContactPage() {
             className="p-4 mx-auto"
           />
         </div>
-        <div className="flex-1 mr-24">
+        <div className="md:flex-1 mr-24">
           <p className="font-bold text-md">
             Phone{" "}
             <FontAwesomeIcon
