@@ -30,10 +30,10 @@ function Header() {
               //   borderRight: "10px solid transparent",
               //   borderBottom: "25px solid transparent",
               // }}
-              className="w-12 h-18 mr-2"
+              className="md:w-12 md:h-18 mr-2"
               src={ameZionLogo}
             />
-            <span className="sm:text-xs md:text-xl lg:text-2xl font-bold tracking-tight">
+            <span className="text-tiny sm:text-xs md:text-xl lg:text-2xl font-bold tracking-tight">
               {site.siteMetadata.title}
             </span>
           </h1>

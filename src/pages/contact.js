@@ -24,7 +24,7 @@ function ContactPage() {
             className="w-full p-4 mx-auto"
           />
         </div>
-        <div className="md:flex-1 md:mr-24">
+        <div className="p-8 md:flex-1 md:mr-24">
           <p className="font-bold text-md">
             Phone{" "}
             <FontAwesomeIcon
