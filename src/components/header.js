@@ -69,7 +69,7 @@ function Header() {
             },
           ].map((link) => (
             <button
-              className="border-none bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded"
+              className="text-mobileHeader md:text-base border-none bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded"
               key={link.title}
               // to={link.route}
             >

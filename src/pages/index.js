@@ -13,7 +13,7 @@ function IndexPage() {
       />
 
       <section id="home" className="h-screen">
-        <div className="text-shadow pt-16 sm:pt-56 md:pt-48 lg:pt-48 sm:text-2xl md:text-3xl lg:text-4xl text-center roboto font-black text-white">
+        <div className="text-shadow pt-56 sm:pt-56 md:pt-48 lg:pt-48 sm:text-2xl md:text-3xl lg:text-4xl text-center roboto font-black text-white">
           {`Welcome`}
           <br />
           {`To`}
