@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
 
-import ameZionLogo from "../images/amezion-logo.png";
+import ameZionLogo from "../images/amezion-logo-2.png";
 //import { ReactComponent as ameZionLogo } from "../images/amezion-logo-1.svg";
 
 function Header() {
@@ -23,14 +23,14 @@ function Header() {
           <h1 className="flex items-center text-white no-underline">
             <img
               alt="African Methodist Episcopal Zion Church Logo"
-              width="30px"
-              height="30px"
+              width="60px"
+              height="60px"
               // style={{
               //   borderLeft: "10px solid transparent",
               //   borderRight: "10px solid transparent",
               //   borderBottom: "25px solid transparent",
               // }}
-              className="md:w-12 md:h-18 mr-2"
+              className="md:w-18 md:h-18 mr-2"
               src={ameZionLogo}
             />
             <span className="text-mobileHeader sm:text-xs md:text-xl lg:text-2xl font-bold tracking-tight">
