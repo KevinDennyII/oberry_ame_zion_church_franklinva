@@ -13,8 +13,8 @@ function AboutPage() {
         title="About"
       />
 
-      <section className="all:flex-col flex items-center ">
-        <div className="all:flex-none flex-1 text-black all:text-xxs text-xs sm:text-xs md:text-sm lg:text-base p-4">
+      <section className="all:flex-col sm:flex md:flex items-center ">
+        <div className="all:flex-none sm:flex-1 md:flex-1 text-black text-xs sm:text-xs md:text-sm lg:text-base p-4">
           <p>
             O’Berry AME got its start in 1856 as a bush harbor, also known as a
             brush arbor or even hush harbor. That is, people conducted services
@@ -34,7 +34,7 @@ function AboutPage() {
             the church, and the couple has been at O’Berry for 10 years.
           </p>
         </div>
-        <div className="all:flex-none flex-1 p-4">
+        <div className="all:flex-none sm:flex-1 md:flex-1 p-4">
           <figure className="object-contain">
             <img
               alt="O'Berry A. M. E. Zion Church Committee"

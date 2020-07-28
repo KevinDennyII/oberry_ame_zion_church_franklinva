@@ -16,6 +16,7 @@ module.exports = {
       fontSize: {
         xxs: "8px",
         tiny: ".5rem",
+        mobileHeader: "12px",
       },
     },
   },
