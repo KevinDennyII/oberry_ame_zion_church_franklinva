@@ -14,7 +14,8 @@ function AboutPage() {
 
       <section className="h-screen all:flex-col sm:flex md:flex items-center ">
         <div className="all:flex-none sm:flex-1 md:flex-1 text-black text-xs sm:text-xs md:text-sm lg:text-base p-4">
-          <p>
+          <p className="bg-purple-700 bg-opacity-25 rounded mx-auto p-4 md:p-6">
+            {/*<p>*/}
             O’Berry AME got its start in 1856 as a bush harbor, also known as a
             brush arbor or even hush harbor. That is, people conducted services
             outdoors, often secretly if they were slaves. Irvin Story is
@@ -26,14 +27,13 @@ function AboutPage() {
             family of churches
             <br />
             <br />
-          </p>
-          <p>
             Today, the congregation of approximately 67 people is led by the
             Rev. Dale Seaborne; the Rev. Carrie Seaborne is the first lady of
             the church, and the couple has been at O’Berry for 10 years.
+            {/*</p>*/}
           </p>
         </div>
-        <div className="all:flex-none sm:flex-1 md:flex-1 p-4">
+        <div className="all:flex-none sm:-mt-12 md:mt-12  sm:flex-1 md:flex-1 p-4">
           <figure className="object-contain">
             <img
               alt="O'Berry A. M. E. Zion Church Committee"
