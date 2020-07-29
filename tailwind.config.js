@@ -14,6 +14,7 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
       },
       fontSize: {
+        aboutSmall: "8pt",
         xxs: "8px",
         tiny: ".5rem",
         mobileHeader: "12px",
