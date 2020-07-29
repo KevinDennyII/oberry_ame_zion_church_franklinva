@@ -2,7 +2,6 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-//import dogIllustration from "../images/dog-illustration.svg";
 import oberryChurchCommittee from "../images/OBerry-church-committee-web.jpg";
 
 function AboutPage() {
@@ -13,7 +12,7 @@ function AboutPage() {
         title="About"
       />
 
-      <section className="all:flex-col sm:flex md:flex items-center ">
+      <section className="h-screen all:flex-col sm:flex md:flex items-center ">
         <div className="all:flex-none sm:flex-1 md:flex-1 text-black text-xs sm:text-xs md:text-sm lg:text-base p-4">
           <p>
             O’Berry AME got its start in 1856 as a bush harbor, also known as a
@@ -42,11 +41,11 @@ function AboutPage() {
               src={oberryChurchCommittee}
             />
             <figcaption className="text-tiny text-center">
-              In front, from left: Otis Brown, Brenda Thomas, Candice Woodruff,
-              Reginald Woodruff Sr. Teressa Baxter; back, Willie and Ann
-              Ellison, Earva Sumblin and Ruth Whitehead. Not pictured are Jean
-              Buck-Denny, Phyllis Britt, Gladys Brown, Yvette Brown, Janice
-              Stevens and John Whitehead
+              In front, from left: Otis Brown (deceased), Brenda Thomas, Candice
+              Woodruff, Reginald Woodruff Sr. (deceased), Teressa Baxter; back,
+              Willie and Ann Ellison, Earva Sumblin and Ruth Whitehead. Not
+              pictured are Jean Buck-Denny, Phyllis Britt, Gladys Brown, Yvette
+              Brown, Janice Stevens and John Whitehead
             </figcaption>
           </figure>
         </div>

@@ -2,13 +2,10 @@ import PropTypes from "prop-types";
 import React from "react";
 
 import Header from "./header";
-// import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
-// import ohhDennyServicesLlcBadge from "../images/OSD_site_badge.jpg";
-// import styles from "../css/style.css";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col font-sans text-gray-900 ">
+    <div className="h-screen flex flex-col font-sans text-gray-900 ">
       <Header />
 
       {/*<main className="flex-1 h-auto px-0 py-4 mx-auto mx-1 md:px-0">*/}

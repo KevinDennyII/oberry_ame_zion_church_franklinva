@@ -2,7 +2,6 @@ import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
 
 import ameZionLogo from "../images/amezion-logo-2.png";
-//import { ReactComponent as ameZionLogo } from "../images/amezion-logo-1.svg";
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -25,11 +24,6 @@ function Header() {
               alt="African Methodist Episcopal Zion Church Logo"
               width="60px"
               height="60px"
-              // style={{
-              //   borderLeft: "10px solid transparent",
-              //   borderRight: "10px solid transparent",
-              //   borderBottom: "25px solid transparent",
-              // }}
               className="md:w-18 md:h-18 mr-2"
               src={ameZionLogo}
             />
@@ -71,7 +65,6 @@ function Header() {
             <button
               className="text-mobileHeader md:text-base border-none bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded"
               key={link.title}
-              // to={link.route}
             >
               <a href={link.route} className="border-none focus:no-underline">
                 {link.title}

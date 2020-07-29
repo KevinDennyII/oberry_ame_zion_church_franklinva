@@ -2,7 +2,6 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-// import oberryAmeZionChurchPic from "../images/oberry_ame_zion_church.jpg";
 
 function IndexPage() {
   return (
