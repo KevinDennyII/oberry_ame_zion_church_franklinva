@@ -25,33 +25,9 @@ function ContactPage() {
           />
         </div>
         <div className="p-8 md:flex-1 md:mr-18">
-          <p className="font-bold text-md">
-            Phone{" "}
-            <FontAwesomeIcon
-              icon={faPhone}
-              style={{
-                color: "green",
-                textShadow: "0 1px 0 rgba(0, 0, 0, 0.1)",
-              }}
-            />
-            :{` `}
-            <a href="tel:+17575690006">(757) 569-0006</a>
-            <br />
-            <br />
-          </p>
-          <p className="font-bold text-md">
-            Worship: Sundays at 11:00 AM EST
-            <br />
-            Sunday School: Sundays at 10:00 AM EST
-            <br />
-            <br />
-            <br />
-            <p className="italic font-normal">
-              *Due to COVID-19, our Worship and Sunday School services are
-              provided through a telephone conference line.
-              <br />
-              <br />
-              Telephone
+          <div className="bg-purple-500 bg-opacity-25 p-4">
+            <p className="font-bold text-md">
+              Phone{" "}
               <FontAwesomeIcon
                 icon={faPhone}
                 style={{
@@ -59,11 +35,37 @@ function ContactPage() {
                   textShadow: "0 1px 0 rgba(0, 0, 0, 0.1)",
                 }}
               />
-              : <a href="tel:+16054754700">605-475-4700</a>
+              :{` `}
+              <a href="tel:+17575690006">(757) 569-0006</a>
               <br />
-              Access Code: 257059#
+              <br />
             </p>
-          </p>
+            <p className="font-bold text-md">
+              Worship: Sundays at 11:00 AM EST
+              <br />
+              Sunday School: Sundays at 10:00 AM EST
+              <br />
+              <br />
+              <br />
+              <p className="italic font-normal">
+                *Due to COVID-19, our Worship and Sunday School services are
+                provided through a telephone conference line.
+                <br />
+                <br />
+                Telephone
+                <FontAwesomeIcon
+                  icon={faPhone}
+                  style={{
+                    color: "green",
+                    textShadow: "0 1px 0 rgba(0, 0, 0, 0.1)",
+                  }}
+                />
+                : <a href="tel:+16054754700">605-475-4700</a>
+                <br />
+                Access Code: 257059#
+              </p>
+            </p>
+          </div>
         </div>
       </section>
     </Layout>

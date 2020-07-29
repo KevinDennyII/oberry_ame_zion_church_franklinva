@@ -13,8 +13,24 @@ function AboutPage() {
       />
 
       <section className="h-screen all:flex-col sm:flex md:flex items-center ">
+        <div className="all:flex-none p-auto sm:flex-1 md:flex-1 p-4">
+          <figure className="object-contain">
+            <img
+              alt="O'Berry A. M. E. Zion Church Committee"
+              className="rounded shadow-md"
+              src={oberryChurchCommittee}
+            />
+            <figcaption className="text-tiny text-center">
+              In front, from left: Otis Brown (deceased), Brenda Thomas, Candice
+              Woodruff, Reginald Woodruff Sr. (deceased), Teressa Baxter; back,
+              Willie and Ann Ellison, Earva Sumblin and Ruth Whitehead. Not
+              pictured are Jean Buck-Denny, Phyllis Britt, Gladys Brown, Yvette
+              Brown, Janice Stevens and John Whitehead
+            </figcaption>
+          </figure>
+        </div>
         <div className="all:flex-none sm:flex-1 md:flex-1 text-black text-xs sm:text-xs md:text-sm lg:text-base p-4">
-          <p className="bg-purple-700 bg-opacity-25 sm:text-aboutSmall rounded mx-auto p-4 md:p-6">
+          <p className="bg-purple-500 bg-opacity-25 sm:text-aboutSmall md:text-sm rounded p-4 md:p-6">
             {/*<p>*/}
             O’Berry AME got its start in 1856 as a bush harbor, also known as a
             brush arbor or even hush harbor. That is, people conducted services
@@ -32,22 +48,6 @@ function AboutPage() {
             the church, and the couple has been at O’Berry for 10 years.
             {/*</p>*/}
           </p>
-        </div>
-        <div className="all:flex-none sm:-mt-12 md:mt-12 sm:flex-1 md:flex-1 p-4">
-          <figure className="object-contain">
-            <img
-              alt="O'Berry A. M. E. Zion Church Committee"
-              className="rounded shadow-md"
-              src={oberryChurchCommittee}
-            />
-            <figcaption className="text-tiny text-center">
-              In front, from left: Otis Brown (deceased), Brenda Thomas, Candice
-              Woodruff, Reginald Woodruff Sr. (deceased), Teressa Baxter; back,
-              Willie and Ann Ellison, Earva Sumblin and Ruth Whitehead. Not
-              pictured are Jean Buck-Denny, Phyllis Britt, Gladys Brown, Yvette
-              Brown, Janice Stevens and John Whitehead
-            </figcaption>
-          </figure>
         </div>
       </section>
     </Layout>
