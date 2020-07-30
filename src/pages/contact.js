@@ -25,7 +25,7 @@ function ContactPage() {
           />
         </div>
         <div className="p-4 md:flex-1 md:mr-18">
-          <div className="bg-purple-500 bg-opacity-25 p-4 rounded">
+          <div className="bg-purple-500 bg-opacity-25 p-4 md:m-10 sm:m-10 rounded">
             <p className="font-bold text-md">
               Phone{" "}
               <FontAwesomeIcon
