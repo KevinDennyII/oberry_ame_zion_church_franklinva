@@ -13,7 +13,7 @@ function Layout({ children }) {
       {/*</main>*/}
 
       <footer className="bg-purple-700 border-t-2">
-        <nav className="p-4 mx-auto text-sm md:p-8">
+        <nav className="p-4 mx-auto text-mobileHeader md:p-8">
           <p className="text-center text-white">
             Made by{` `}
             <a

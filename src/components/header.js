@@ -27,7 +27,7 @@ function Header() {
               className="md:w-18 md:h-18 mr-2"
               src={ameZionLogo}
             />
-            <span className="text-mobileHeader sm:text-xs md:text-xl lg:text-2xl font-bold tracking-tight">
+            <span className="text-mobileHeader mx-auto sm:text-xs md:text-xl lg:text-2xl font-bold tracking-tight">
               {site.siteMetadata.title}
             </span>
           </h1>
