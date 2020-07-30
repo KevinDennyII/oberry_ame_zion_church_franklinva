@@ -14,6 +14,7 @@ function AboutPage() {
 
       <section className="h-screen all:flex-col sm:flex md:flex items-center ">
         <div className="all:flex-none p-auto sm:flex-1 md:flex-1 p-4">
+          <p className="text-xs text-black text-center">{`Team O'Berry`}</p>
           <figure className="object-contain">
             <img
               alt="O'Berry A. M. E. Zion Church Committee"
