@@ -6,7 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `O'Berry A. M. E. Zion Church of Franklin, VA`,
-    description: `A small little church with a big heart.`,
+    description: `A little church with a big heart.`,
     author: `@OhhDenny Services, LLC`,
   },
   plugins: [
