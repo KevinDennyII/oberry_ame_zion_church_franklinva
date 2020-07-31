@@ -27,12 +27,12 @@ function ContactPage() {
         <div className="p-4 md:flex-1 md:mr-18">
           <div className="bg-purple-500 bg-opacity-25 p-4 md:m-10 sm:m-10 rounded">
             <p className="font-bold text-md">
-              Phone{" "}
               <FontAwesomeIcon
                 icon={faPhone}
                 style={{
-                  color: "green",
+                  color: "#5390d9",
                   textShadow: "0 1px 0 rgba(0, 0, 0, 0.1)",
+                  fontSize: "1em",
                 }}
               />
               :{` `}
@@ -52,12 +52,12 @@ function ContactPage() {
                 provided through a telephone conference line.
                 <br />
                 <br />
-                Telephone
                 <FontAwesomeIcon
                   icon={faPhone}
                   style={{
-                    color: "green",
+                    color: "#5390d9",
                     textShadow: "0 1px 0 rgba(0, 0, 0, 0.1)",
+                    fontSize: "1em",
                   }}
                 />
                 : <a href="tel:+16054754700">605-475-4700</a>
