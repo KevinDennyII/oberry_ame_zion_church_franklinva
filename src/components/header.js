@@ -17,9 +17,9 @@ function Header() {
 
   return (
     <header className="bg-purple-700 border-b-2">
-      <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-4">
+      <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto">
         <Link to="/">
-          <h1 className="flex items-center text-white no-underline">
+          <h1 className="flex m-2 md:m-4 items-center text-white no-underline">
             <img
               alt="African Methodist Episcopal Zion Church Logo"
               width="60px"
@@ -38,7 +38,7 @@ function Header() {
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
-            className="w-3 h-3 fill-current"
+            className="w-2 h-2 md:w-3 md:h-3 fill-current"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -63,7 +63,7 @@ function Header() {
             },
           ].map((link) => (
             <button
-              className="text-mobileHeader md:text-base border-none bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded"
+              className="text-mobileHeader md:text-base border-none bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-3 md:px-4 rounded"
               key={link.title}
             >
               <a href={link.route} className="border-none focus:no-underline">
