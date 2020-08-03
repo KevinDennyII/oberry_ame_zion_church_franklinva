@@ -18,3 +18,23 @@ section#home {
   background-origin: padding-box;
   border-radius: 4px;
 }
+
+section#about {
+  background: repeating-linear-gradient(
+    -55deg,
+    rgba(222, 222, 222, 0.6),
+    rgba(222, 222, 222, 0.6) 2px,
+    rgba(238, 238, 238, 0.6) 2px,
+    rgba(238, 238, 238, 0.6) 4px
+  );
+}
+
+section#contact {
+  background: repeating-linear-gradient(
+    -55deg,
+    rgba(222, 222, 222, 0.6),
+    rgba(222, 222, 222, 0.6) 2px,
+    rgba(238, 238, 238, 0.6) 2px,
+    rgba(238, 238, 238, 0.6) 4px
+  );
+}
