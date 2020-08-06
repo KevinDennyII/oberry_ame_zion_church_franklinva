@@ -1,7 +1,7 @@
 # O'berry A. M. E. Zion Church of Frankin, Virginia
 
-Website: https://www.oberryamezionchurch.org
-Netlify URL: https://oberry-ame-zion-church.netlify.app/
+- Website: https://www.oberryamezionchurch.org
+- Netlify URL: https://oberry-ame-zion-church.netlify.app/
 
 This is a small little country church right outside the city limits of Franklin, VA. Much of my adolescences is a part of the church for which my mother and all her side of the family is from. I wanted to give O'berry some type of web presence.
 
