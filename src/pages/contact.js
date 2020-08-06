@@ -14,7 +14,7 @@ function ContactPage() {
       />
       <section
         id="contact"
-        className="md:h-screen md:flex items-center mx-auto justify-center"
+        className="md:h-screen md:flex items-center justify-center"
       >
         <div className="md:flex-1 md:ml-18 overflow-hidden relative rounded">
           <iframe
