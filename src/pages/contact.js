@@ -61,6 +61,8 @@ function ContactPage() {
                     color: "#5390d9",
                     textShadow: "0 1px 0 rgba(0, 0, 0, 0.1)",
                     fontSize: "1em",
+                    maxWidth: "100%",
+                    height: "auto",
                   }}
                 />
                 : <a href="tel:+16054754700">605-475-4700</a>
