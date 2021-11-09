@@ -18,7 +18,7 @@ function Layout({ children }) {
             Made by{` `}
             <a
               className="font-bold no-underline"
-              href="https://ohhdennyservices.us"
+              href="https://www.ohhdennyservices.com"
               target="_blank"
               rel="noopener noreferrer"
             >
