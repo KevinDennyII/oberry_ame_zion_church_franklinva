@@ -50,12 +50,7 @@ function ContactPage() {
               Sunday School: Sundays at 10:00 AM EST
               <br />
               <br />
-              <br />
               <p className="italic font-normal">
-                *Due to COVID-19, our Worship and Sunday School services are
-                provided through a telephone conference line.
-                <br />
-                <br />
                 <FontAwesomeIcon
                   icon={faPhone}
                   style={{
