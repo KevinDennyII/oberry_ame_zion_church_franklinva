@@ -27,7 +27,7 @@ function Layout({ children }) {
             {` `}with ❤
             <br />
             {`Copyright `}&copy;
-            {` 2022 O'Berry A. M. E. Zion Church. All Rights Reserved.`}
+            {` 2024 O'Berry A. M. E. Zion Church. All Rights Reserved.`}
           </p>
         </nav>
       </footer>
