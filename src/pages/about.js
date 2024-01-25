@@ -39,7 +39,7 @@ function AboutPage() {
             O’Berry AME got its start in 1856 as a bush harbor, also known as a
             brush arbor or even hush harbor. That is, people conducted services
             outdoors, often secretly if they were slaves. Irvin Story is
-            credited as the founder, she said, and four years later a
+            credited as the founder, and four years later in 1860, a
             brick-and-mortar structure was built for Christians to worship more
             comfortably and freely. Initially, the site was referred to as the
             O’Berry Colored Church. But after later aligning itself with a
