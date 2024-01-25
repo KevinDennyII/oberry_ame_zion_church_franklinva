@@ -48,27 +48,27 @@ function ContactPage() {
               Worship: Sundays at 11:00 AM EST
               <br />
               Sunday School: Sundays at 10:00 AM EST
-              <br />
-              <br />
-              <p className="italic font-normal">
-                <FontAwesomeIcon
-                  icon={faPhone}
-                  style={{
-                    color: "#5390d9",
-                    textShadow: "0 1px 0 rgba(0, 0, 0, 0.1)",
-                    fontSize: "1em",
-                    // adding maxWidth and height CSS is telling images not to
-                    // exceed the width of the element that contains them,
-                    // but to scale the height properly so that there’s no
-                    // “stretching” or “squishing” as the image is resized
-                    maxWidth: "100%",
-                    height: "20px",
-                  }}
-                />
-                : <a href="tel:+16054754700">605-475-4700</a>
-                <br />
-                Access Code: 257059#
-              </p>
+              {/*<br />*/}
+              {/*<br />*/}
+              {/*<p className="italic font-normal">*/}
+              {/*  <FontAwesomeIcon*/}
+              {/*    icon={faPhone}*/}
+              {/*    style={{*/}
+              {/*      color: "#5390d9",*/}
+              {/*      textShadow: "0 1px 0 rgba(0, 0, 0, 0.1)",*/}
+              {/*      fontSize: "1em",*/}
+              {/*      // adding maxWidth and height CSS is telling images not to*/}
+              {/*      // exceed the width of the element that contains them,*/}
+              {/*      // but to scale the height properly so that there’s no*/}
+              {/*      // “stretching” or “squishing” as the image is resized*/}
+              {/*      maxWidth: "100%",*/}
+              {/*      height: "20px",*/}
+              {/*    }}*/}
+              {/*  />*/}
+              {/*  : <a href="tel:+16054754700">605-475-4700</a>*/}
+              {/*  <br />*/}
+              {/*  Access Code: 257059#*/}
+              {/*</p>*/}
             </p>
           </div>
         </div>
