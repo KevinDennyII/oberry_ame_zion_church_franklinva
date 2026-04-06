@@ -1,69 +1,33 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
-  "version": "4.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
-    "@fortawesome/free-solid-svg-icons": "^5.14.0",
-    "@fortawesome/react-fontawesome": "^0.1.11",
-    "gatsby": "2.24.3",
-    "gatsby-plugin-manifest": "2.4.18",
-    "gatsby-plugin-offline": "3.2.18",
-    "gatsby-plugin-postcss": "2.3.11",
-    "gatsby-plugin-react-helmet": "3.3.10",
-    "gatsby-plugin-sharp": "2.6.19",
-    "prop-types": "15.7.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-fontawesome": "^1.7.1",
-    "react-helmet": "6.1.0",
-    "tailwindcss-typography": "^3.1.0"
-  },
-  "keywords": [
-    "gatsby",
-    "tailwind",
-    "tailwindcss",
-    "purgecss"
-  ],
-  "license": "MIT",
+  "name": "oberry_ame_zion_church_franklinva",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "analyze:lint": "eslint --ext .jsx --ext .js .",
-    "analyze:prettier": "prettier --list-different \"**/*.{css,js,jsx,json,md}\"",
-    "analyze": "npm run analyze:lint && npm run analyze:prettier",
-    "fix:lint": "eslint --ext .jsx --ext .js . --fix",
-    "fix:prettier": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
-    "fix": "npm run fix:lint && npm run fix:prettier",
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "dev": "npm run develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.2.0",
+    "@fortawesome/free-solid-svg-icons": "^7.2.0",
+    "@fortawesome/react-fontawesome": "^3.3.0",
+    "motion": "^12.38.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.14.0",
+    "vite-plugin-svgr": "^5.2.0"
   },
   "devDependencies": {
-    "@tailwindcss/custom-forms": "0.2.1",
-    "autoprefixer": "9.8.5",
-    "babel-eslint": "10.1.0",
-    "cssnano": "4.1.10",
-    "eslint": "6.8.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-loader": "3.0.4",
-    "eslint-plugin-import": "2.22.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "7.20.3",
-    "gatsby-plugin-eslint": "2.0.8",
-    "prettier": "2.0.5",
-    "tailwindcss": "1.5.1",
-    "tailwindcss-textshadow": "^2.0.0",
-    "webpack": "^4.44.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
-  },
-  "bugs": {
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "vite": "^8.0.1"
   }
 }

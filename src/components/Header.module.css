@@ -1,0 +1,39 @@
+
+.header {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: var(--spacing-small) var(--spacing-large);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-medium);
+}
+
+.logo {
+  height: 65px;
+}
+
+.churchName {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.nav a {
+  color: var(--color-text-light);
+  margin-left: var(--spacing-large);
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav a:hover {
+  color: var(--color-white);
+}

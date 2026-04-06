@@ -1,0 +1,13 @@
+
+:root {
+  --color-primary: #6A4A8F;
+  --color-white: #FFFFFF;
+  --color-text-light: #F0F0F0;
+  --color-text-dark: #333;
+  --color-background: #fff;
+  --font-family-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+}

@@ -1,0 +1,91 @@
+
+.page {
+  padding: var(--spacing-large);
+  background: repeating-linear-gradient(
+    -55deg,
+    #f0f0f0,
+    #f0f0f0 2px,
+    #fafafa 2px,
+    #fafafa 4px
+  );
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-large);
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.mapContainer {
+  flex: 1;
+  width: 100%;
+  height: 400px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.infoContainer {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: var(--spacing-large);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-medium);
+  font-size: 1.1rem;
+}
+
+.infoItem:last-child {
+  margin-bottom: 0;
+}
+
+.infoIcon {
+  color: var(--color-primary);
+  margin-right: var(--spacing-medium);
+  width: 20px;
+  height: 20px;
+}
+
+.infoItem a {
+  color: var(--color-text-dark);
+  font-weight: 500;
+}
+
+.infoItem a:hover {
+  color: var(--color-primary);
+}
+
+.infoItem span {
+  font-weight: 700;
+  margin-right: var(--spacing-small);
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
