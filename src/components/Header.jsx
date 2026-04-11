@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
-import logo from '../assets/amezion-logo-1.svg';
+import logo from '../assets/amezion-logo-2.png';
 
 const Header = () => {
   return (

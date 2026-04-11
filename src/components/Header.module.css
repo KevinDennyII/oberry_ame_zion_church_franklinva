@@ -18,6 +18,8 @@
 
 .logo {
   height: 55px;
+  width: auto;
+  display: block;
 }
 
 .churchName {
@@ -78,7 +80,7 @@
   }
 
   .logo {
-    height: 42px;
+    height: 40px;
   }
 
   .churchName {
@@ -117,7 +119,7 @@
   }
 
   .logo {
-    height: 34px;
+    height: 32px;
   }
 
   .churchName {
