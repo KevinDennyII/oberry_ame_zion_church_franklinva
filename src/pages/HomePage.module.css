@@ -3,26 +3,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 65px - 60px); /* 100vh - header height - footer height */
+  min-height: calc(100vh - 65px - 60px); /* 100vh - header height - footer height */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/oberry_ame_zion_church.jpg');
   background-size: cover;
   background-position: center;
   color: var(--color-white);
   text-align: center;
+  padding: var(--spacing-large) var(--spacing-medium);
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: clamp(1.95rem, 7.2vw, 3rem);
   font-weight: 700;
   margin: 0;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  line-height: 1.08;
 }
 
 .subtitle {
-  font-size: 3.5rem;
+  font-size: clamp(2.75rem, 12.5vw, 5.25rem);
   font-weight: 900;
   margin: 0;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  line-height: 0.96;
 }
 
 .taglineBar {
@@ -35,19 +38,18 @@
 
 .tagline {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: clamp(1rem, 3.1vw, 1.2rem);
   font-weight: 500;
 }
 
 @media (max-width: 768px) {
-  .title {
-    font-size: 2.5rem;
+  .hero {
+    min-height: calc(100vh - 120px - 68px);
+    padding: var(--spacing-medium);
   }
-  .subtitle {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-  .tagline {
-    font-size: 1.1rem;
+
+  .taglineBar {
+    margin-top: var(--spacing-medium);
+    padding: var(--spacing-small) var(--spacing-medium);
   }
 }

@@ -48,9 +48,10 @@
 
 .infoItem {
   display: flex;
-  align-items: center;
-  margin-bottom: var(--spacing-medium);
-  font-size: 1.1rem;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-small);
+  font-size: clamp(0.98rem, 2.6vw, 1.08rem);
+  line-height: 1.35;
 }
 
 .infoItem:last-child {
@@ -62,6 +63,7 @@
   margin-right: var(--spacing-medium);
   width: 20px;
   height: 20px;
+  margin-top: 2px;
 }
 
 .infoItem a {
@@ -76,6 +78,10 @@
 .infoItem span {
   font-weight: 700;
   margin-right: var(--spacing-small);
+}
+
+.infoItem p {
+  margin: 0;
 }
 
 @media (min-width: 768px) {

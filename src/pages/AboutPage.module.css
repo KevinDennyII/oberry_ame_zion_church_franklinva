@@ -21,10 +21,17 @@
 
 .imageContainer {
   flex: 1;
+  width: 100%;
+  max-width: 560px;
+}
+
+.imageContainer figure {
+  margin: 0;
 }
 
 .image {
   width: 100%;
+  display: block;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
@@ -57,5 +64,9 @@
   .content {
     flex-direction: row;
     align-items: flex-start;
+  }
+
+  .imageContainer {
+    max-width: none;
   }
 }

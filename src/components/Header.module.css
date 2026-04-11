@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--spacing-medium);
   font-family: 'Merriweather', serif;
 }
 
@@ -20,20 +21,28 @@
 }
 
 .churchName {
-  font-size: 1.1rem;
+  font-size: clamp(0.92rem, 1.6vw, 1.1rem);
   font-weight: 700;
   margin: 0;
   letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-large);
 }
 
 .nav a {
   font-family: inherit; /* Inherit the font from the header */
   color: var(--color-text-light);
-  margin-left: var(--spacing-large);
+  margin-left: 0;
   font-weight: 400; /* Regular weight */
-  font-size: 1rem;
+  font-size: clamp(0.95rem, 1.4vw, 1rem);
   text-decoration: none;
   transition: color 0.2s ease-in-out;
+  white-space: nowrap;
 }
 
 .nav a:hover {
@@ -42,29 +51,62 @@
 
 @media (max-width: 768px) {
   .header {
-    padding: var(--spacing-medium);
-    align-items: flex-start;
-  }
-
-  .logo {
-    height: 45px;
-  }
-
-  .churchName {
-    font-size: 1rem;
-    line-height: 1.2;
-    max-width: 150px; /* Force the text to wrap */
-  }
-
-  .nav {
-    display: flex;
+    padding: var(--spacing-small) var(--spacing-medium);
     flex-direction: column;
-    align-items: flex-end;
+    align-items: stretch;
     gap: var(--spacing-small);
   }
 
+  .logoContainer {
+    width: 100%;
+    gap: var(--spacing-small);
+  }
+
+  .logo {
+    height: 42px;
+  }
+
+  .churchName {
+    font-size: clamp(0.74rem, 3.05vw, 0.92rem);
+    line-height: 1.1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: flex-end;
+    gap: var(--spacing-medium);
+  }
+
   .nav a {
-    margin-left: 0;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    padding: 0.45rem 0.55rem;
+    gap: 0.4rem;
+  }
+
+  .logo {
+    height: 34px;
+  }
+
+  .churchName {
+    font-size: clamp(0.56rem, 2.7vw, 0.72rem);
+    line-height: 1.08;
+    letter-spacing: 0;
+    overflow: visible;
+    text-overflow: clip;
+  }
+
+  .nav {
+    gap: 0.6rem;
+  }
+
+  .nav a {
+    font-size: clamp(0.82rem, 3.1vw, 0.9rem);
   }
 }
