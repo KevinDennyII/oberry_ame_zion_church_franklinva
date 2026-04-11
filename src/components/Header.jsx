@@ -11,7 +11,10 @@ const Header = () => {
         <Link to="/">
           <img src={logo} alt="O'Berry A. M. E. Zion Church Logo" className={styles.logo} />
         </Link>
-        <h1 className={styles.churchName}>O'Berry A. M. E. Zion Church of Franklin, VA</h1>
+        <h1 className={styles.churchName}>
+          <span className={styles.titleFull}>O'Berry A. M. E. Zion Church of Franklin, VA</span>
+          <span className={styles.titleCompact}>O'Berry A. M. E. Zion Church</span>
+        </h1>
       </div>
       <nav className={styles.nav}>
         <Link to="/about">About</Link>
