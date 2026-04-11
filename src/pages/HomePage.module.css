@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: calc(100vh - 65px - 60px); /* 100vh - header height - footer height */
-  background-image: linear-gradient(rgba(107, 77, 184, 0.35), rgba(107, 77, 184, 0.35)), url('../assets/oberry_ame_zion_church.jpg');
+  background-image: linear-gradient(rgba(107, 70, 193, 0.35), rgba(107, 70, 193, 0.35)), url('../assets/oberry_ame_zion_church.jpg');
   background-size: cover;
   background-position: center;
   color: var(--color-white);
