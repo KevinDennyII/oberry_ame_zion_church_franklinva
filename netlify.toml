@@ -6,6 +6,24 @@
   NODE_VERSION = "22"
 
 [[redirects]]
+  from = "/page-data/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/manifest.webmanifest"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/icons/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200

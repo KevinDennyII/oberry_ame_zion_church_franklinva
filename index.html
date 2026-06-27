@@ -71,6 +71,32 @@
     <script>
       (function () {
         var reloadKey = 'oberry_asset_reload';
+        var cleanupKey = 'oberry_sw_cleanup';
+
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            if (registrations.length === 0) {
+              return;
+            }
+
+            return Promise.all(registrations.map(function (registration) {
+              return registration.unregister();
+            })).then(function () {
+              if ('caches' in window) {
+                return caches.keys().then(function (names) {
+                  return Promise.all(names.map(function (name) {
+                    return caches.delete(name);
+                  }));
+                });
+              }
+            }).then(function () {
+              if (!sessionStorage.getItem(cleanupKey)) {
+                sessionStorage.setItem(cleanupKey, '1');
+                window.location.reload();
+              }
+            });
+          });
+        }
 
         window.addEventListener(
           'error',
