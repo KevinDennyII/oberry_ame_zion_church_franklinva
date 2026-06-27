@@ -1,17 +1,19 @@
-
-import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import SkipLink from './SkipLink';
 import styles from './Layout.module.css';
 
-const Layout = ({ children }) => {
+function Layout({ children }) {
   return (
     <div className={styles.layout}>
+      <SkipLink />
       <Header />
-      <main className={styles.mainContent}>{children}</main>
+      <main id="main-content" className={styles.main}>
+        {children}
+      </main>
       <Footer />
     </div>
   );
-};
+}
 
 export default Layout;

@@ -1,14 +1,26 @@
-
-import React from 'react';
 import styles from './Footer.module.css';
 
-const Footer = () => {
+function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <footer className={styles.footer}>
-      <p>Made by OhhDenny Services, LLC with ❤️</p>
-      <p>Copyright © {new Date().getFullYear()} O'Berry A. M. E. Zion Church. All Rights Reserved.</p>
+      <div className={styles.inner}>
+        <p>
+          Made by{' '}
+          <a
+            href="https://www.ohhdennyservices.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            OhhDenny Services, LLC
+          </a>{' '}
+          with ❤️
+        </p>
+        <p>Copyright © {year} O&apos;Berry A. M. E. Zion Church. All Rights Reserved.</p>
+      </div>
     </footer>
   );
-};
+}
 
 export default Footer;
