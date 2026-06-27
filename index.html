@@ -10,6 +10,12 @@
     <meta name="theme-color" content="#6b46c1" />
     <link rel="canonical" href="https://www.oberryamezionchurch.org/" />
     <link rel="icon" type="image/png" href="/church-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -40,10 +46,54 @@
       content="O'Berry A. M. E. Zion Church building in Franklin, Virginia"
     />
 
+    <style>
+      :root {
+        color-scheme: light;
+      }
+
+      body {
+        margin: 0;
+        background: #faf8f5;
+      }
+
+      .app-boot {
+        display: flex;
+        min-height: 100dvh;
+        align-items: center;
+        justify-content: center;
+        font-family: Merriweather, Georgia, 'Times New Roman', serif;
+        font-size: 1rem;
+        color: #6b46c1;
+      }
+    </style>
+
     <title>O'Berry A. M. E. Zion Church | Franklin, VA</title>
+    <script>
+      (function () {
+        var reloadKey = 'oberry_asset_reload';
+
+        window.addEventListener(
+          'error',
+          function (event) {
+            var target = event.target;
+            if (!target || (target.tagName !== 'SCRIPT' && target.tagName !== 'LINK')) {
+              return;
+            }
+
+            if (!sessionStorage.getItem(reloadKey)) {
+              sessionStorage.setItem(reloadKey, '1');
+              window.location.reload();
+            }
+          },
+          true
+        );
+      })();
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="app-boot" aria-live="polite">Loading…</div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
